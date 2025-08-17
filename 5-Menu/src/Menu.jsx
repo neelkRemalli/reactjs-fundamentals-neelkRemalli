@@ -1,0 +1,15 @@
+import MenuItem from "./MenuItem"
+
+
+const Menu = ({items}) => {
+    
+  return (
+    <div className="section-center">
+        {items.map((menuItem)=>(
+            <MenuItem key={menuItem.id} {...menuItem} />
+        ))}
+    </div>
+  )
+}
+
+export default Menu
