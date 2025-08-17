@@ -39,7 +39,7 @@ function App() {
   }
   setIndex(checkNumber(randomNumber))
   }
-  console.log('neelk!!!!!!!', index)
+
   return (
     <main>
       <article className='review'>
